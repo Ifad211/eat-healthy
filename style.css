@@ -36,7 +36,7 @@ p {
 
 .half-screen {
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 0px;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -54,4 +54,73 @@ p {
     text-decoration: none;
     font-weight: 700px;
 
+}
+
+.background2 {
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.half-width2 {
+    color: gray;
+    width: 50%;
+    padding: 2%;
+}
+
+.half-width2 img {
+    width: 60%;
+    padding-left: 20%;
+}
+
+#writing2 {
+    padding-top: 8%;
+    padding-right: 7%;
+    padding-left: 3%;
+    text-align: center;
+}
+
+.page-content {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.box-content {
+    width: 50%;
+    display: block;
+    border-radius: 20px;
+    padding: 10px 10px 10px 30px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+.box-content img {
+    width: 90%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.recipie {
+    background-image: url(images/shapes/exp-bg.png);
+    display: flex;
+    margin-bottom: 120px;
+}
+
+#text {
+    color: rgb(91, 88, 88);
+    width: 50%;
+    display: inline-flexbox;
+    padding-left: 27%;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#left {
+    margin-left: 15%;
+    margin-right: 2%;
+}
+
+#right {
+    margin-right: 5%;
+    margin-left: 3%;
 }
